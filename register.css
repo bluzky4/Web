@@ -1,0 +1,57 @@
+h2 {
+    font-size: 1.8em;
+    text-align: center;
+    color: black;
+    font-weight: 100;
+    margin-bottom: 1.2em;
+    letter-spacing: 5px;
+}
+.main {
+    padding: 0.5em;
+    text-align: center;
+}
+.main-row {
+    width: 51%;
+    margin:  auto;
+}
+.login-form {
+    width: 38%;
+    float: left;
+    padding: 0em 12em;
+    text-align: center;
+}
+.login-form input[type="text"],.login-form input[type="email"],.login-form input[type="password"] {
+    outline: none;
+    font-size: 1em;
+    color: black;
+    padding: .5em 1em;
+    margin: 0;
+    width: 100%;
+    border: 1px solid #fff;
+    display: block;
+    background: transparent;
+    font-family: 'Raleway', sans-serif;
+}
+.login-form p {
+    font-size: 0.9em;
+    color: black;
+    margin: 1.5em 0 .8em;
+    letter-spacing:1px;
+}
+.login-form input[type="submit"] {
+    font-size: 1em;
+    color: black;
+    background: transparent;
+    border: 1px solid #fff;
+    outline: none;
+    padding: .6em 1em;
+    width: 100%;
+    margin-top: 2em;
+    transition: 0.5s all;
+}
+.login-form input[type="submit"]:hover {
+    background: #FF9800;
+    letter-spacing: 3px;
+    color: #fff;
+    border-color: #ff9800 ;
+}
